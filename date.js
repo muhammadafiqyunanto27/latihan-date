@@ -2,7 +2,7 @@ const date =  new Date();
 console.log("Date: ",date)
 // Output: UTC DATE
  
-const localedate = date.toLocaleDateString()
+const localedate = date.toLocaleString()
 console.log(localedate)
 // Output: Local Date
 
